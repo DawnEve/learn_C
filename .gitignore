@@ -1,0 +1,10 @@
+
+# file
+*.exe
+
+
+# dir
+dustbin
+backup
+
+
