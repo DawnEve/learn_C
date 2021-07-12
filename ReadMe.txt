@@ -22,13 +22,14 @@ warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
 2. 知识结构
 
-day01/ 数据类型
+day01/ 数据类型、运算符和表达式
 	库函数printf()和scanf()的使用 
 	01.c 基础 printf() 打印 hello world
 	02.c 打印浮点数字
 	03.c 类型修饰符long和 unsigned的使用
 	04.c 表达式中数据类型转换: 自动转换，
 	05.c 表达式中数据类型转换:    ，强制转换 (int) x
+
 
 day02/ 控制结构-条件 if, switch
 	01.c if else
@@ -42,7 +43,9 @@ day02/ 控制结构-条件 if, switch
 	07.c 循环的嵌套: 打印 星号
 	08.c 循环的嵌套: 打印 九九乘法表
 	
-
+day03/ 函数
+	01.c 函数声明、后面实现，函数嵌套调用
+	02.c 尝试调用其他文件的函数，如 01.c 报错，不能定义两个 main()
 
 #
 
