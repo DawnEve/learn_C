@@ -1,22 +1,30 @@
 Basic C
 
-资料: F:\计算机代码学习文件夹\c语言上机编程
 
-1. 怎么在win7运行c代码?
-(1)使用 ANSI 编码格式写代码
+1. 怎么运行c代码？
+
+(1)在win7运行c代码?
+1)使用 ANSI 编码格式写代码
 否则会中文乱码
 
-(2)
-under CMD:
+2) under CMD:
 >gcc --version
 gcc (x86_64-posix-seh, Built by strawberryperl.com project) 7.1.0
 Copyright (C) 2017 Free Software Foundation, Inc.
 This is free software; see the source for copying conditions.  There is NO
 warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
-> gcc 1.cpp -o dustbin/1.exe
+> gcc 01.c -o dustbin/01.exe
 > cd dustbin 
-> 1.exe
+> 01.exe
+
+
+
+(2) 怎么在ubuntu上运行C代码？
+
+
+
+
 
 
 
@@ -87,13 +95,26 @@ day06/ 变量类别与编译预处理
 
 
 day07/ 指针基本用法
-	01.c 
+	01.c 指针，指针的引用
+	02.c 指针作为函数参数，传地址，没解引用，不影响main函数
+	03.c 指针作为函数参数，传地址，解引用
+	04.c 指向一维数组的指针：分别使用下标、指针输出数组
+	05.c 数组作函数参数：数组a中的n个整数按相反顺序存放
+	06.c 指向数组元素的指针变量作函数参数：求五个学生的C语言平均成绩。
+	07.c 指针与字符串：实现字符串拷贝功能
+
+
+day08/ 指针高级用法	
 	
 #
 
 
 
+
+
 #
+
+
 
 
 

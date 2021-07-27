@@ -4,5 +4,13 @@ v0.3 day03 函数
 v0.4 day04 数组
 v0.5 day05 字符与字符串
 v0.6 day06/ 变量类别与编译预处理
+v0.7 day07/ 指针
 
 
+
+
+
+==
+资料: F:\计算机代码学习文件夹\c语言上机编程
+
+push to DawnEve master
