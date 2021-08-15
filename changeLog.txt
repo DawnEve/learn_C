@@ -7,7 +7,10 @@ v0.6 day06/ 变量类别与编译预处理
 v0.7 day07/ 指针
 v0.8 day08 指针高级用法
 v0.9 day09/ 结构体、共用体和枚举类型
-v1.0 day10/ 链表
+v1.0 day10/ 链表，堆栈
+v1.1 day11/ 文件
+v1.2 day11/ 文件读写 fprintf
+#
 ##->commit
 ##----------->push to DawnEve master
 

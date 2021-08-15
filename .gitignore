@@ -1,11 +1,13 @@
 
 # file
 *.exe
+*.out
 
 
 # dir
 dustbin
 backup
+
 dist
 
 

@@ -128,6 +128,12 @@ day10/ 数据结构
 	03.c 动态链表：使用 typedef 使链表引用更简洁
 	04.c 动态链表：插入和删除元素
 
+day11/ 文件
+	01.c 文件的打开、关闭
+	02.c 按字符读写的函数fgetc()、fputc()
+		从键盘输入字符，逐个存到磁盘文件中，直到输入‘#“为止
+	03.c 按字符串读写的函数fgets()、fputs()
+	04.c 按格式要求读写的函数fprintf()、fscanf()
 #
 
 
@@ -165,5 +171,12 @@ day10/ 数据结构
 
 
 #
-
+$ git remote -v
+origin  https://github.com/DawnEve/learn_C.git (fetch)
+origin  https://github.com/DawnEve/learn_C.git (push)
+$ git remote rm origin
+$ git remote add origin git@github.com:DawnEve/learn_C.git
+$ git remote -v
+origin  git@github.com:DawnEve/learn_C.git (fetch)
+origin  git@github.com:DawnEve/learn_C.git (push)
 
