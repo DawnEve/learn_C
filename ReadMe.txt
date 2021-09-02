@@ -152,13 +152,11 @@ day12/ windows 编程 -- 跳过
 	附录E C语言常用库函数参考 P175/180 
 		math.h, string.h,stdio.h, 
 # 中兴C语言手册基本看完，还有一个实验手册
-	
-	
-	
-	
-	
-#
 
+#
+bigBags/ 复习之前学习的部分
+	bag1/
+	ReadMe.txt 详情看这里
 
 
 
