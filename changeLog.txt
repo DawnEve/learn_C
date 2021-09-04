@@ -13,6 +13,7 @@ v1.2 day11/ 文件读写 fprintf
 v1.3 day11/ fseek
 v1.4 bag1/ 阅读基础代码: 9个
 v1.5 bag1/ 阅读基础代码: 11个, now 20
+v1.6 bag2/ 阅读基础代码: 6个, now 26
 #
 ##->commit
 ##----------->push to DawnEve master
