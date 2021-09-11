@@ -16,6 +16,7 @@ v1.5 bag1/ 阅读基础代码: 11个, now 20
 v1.6 bag2/ 阅读基础代码: 6个, now 26
 v1.7 bag2/ 阅读基础代码: 12个, now 38
 v1.8 bag2/ 阅读基础代码: 5个, now 43
+v1.9 bag3/ 阅读基础代码: 8个, now 51
 #
 ##->commit
 ##----------->push to DawnEve master
