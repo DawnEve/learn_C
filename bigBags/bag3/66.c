@@ -1,29 +1,29 @@
 /*
-* ÎÄ¼ş±êÊ¶£ºÁ·Ï° ¡­¡­ºÍµÚ35ÓĞµãÏñ
-* Õª    Òª£ºN¸öÊıµÄÑ¡Ôñ·¨ÅÅĞò£¨´ÓĞ¡µ½´ó£©
+* æ–‡ä»¶æ ‡è¯†ï¼šç»ƒä¹  â€¦â€¦å’Œç¬¬35æœ‰ç‚¹åƒ
+* æ‘˜    è¦ï¼šNä¸ªæ•°çš„é€‰æ‹©æ³•æ’åºï¼ˆä»å°åˆ°å¤§ï¼‰
 */
 #include <stdio.h>
 #include <math.h>
-#define N 10  //Éè¶¨ÅÅĞòµÄÔªËØ¸öÊı
-void main() {
-	int i,j,min,temp,a[11];
+#define N 10  //è®¾å®šæ’åºçš„å…ƒç´ ä¸ªæ•°
+int main() {
+	int i,j,min,temp,a[N];
 	printf("enter data:\n");
-	//1.ÊäÈë
-	for(i=1; i<=N; i++){
+	//1.è¾“å…¥
+	for(i=0; i<N; i++){
 		printf("a[%d]=",i);
 		scanf("%d",&a[i]);
 	}
 	printf("\n");
-	//2.Êä³ö³õÊ¼Öµ
+	//2.è¾“å‡ºåˆå§‹å€¼
 	printf("the original numbers:\n");
-	for(i=1; i<=N; i++)	{
+	for(i=0; i<N; i++)	{
 		printf("%5d",a[i]);
 	}
 	printf("\n");
-	//3.ÅÅĞò
-	for(i=1; i<=N; i++){
-		min=i; //Ñ¡³ö×îĞ¡ÔªËØµÄÏÂ±ê
-		for(j=i+1; j<=N; j++){
+	//3.æ’åº
+	for(i=0; i<N; i++){
+		min=i; //é€‰å‡ºæœ€å°å…ƒç´ çš„ä¸‹æ ‡
+		for(j=i+1; j<N; j++){
 			if(a[min]>a[j])
 				min=j;
 		}
@@ -33,10 +33,11 @@ void main() {
 			a[i]=temp;
 		}
 	}
-	//4.´òÓ¡Êä³ö½á¹û
+	//4.æ‰“å°è¾“å‡ºç»“æœ
 	printf("the sorted numbers:\n");
-	for (i=1; i<=N; i++){
+	for (i=0; i<N; i++){
 		printf("%5d",a[i]);
 	}
 	printf("\n");
+	return 0;
 }
