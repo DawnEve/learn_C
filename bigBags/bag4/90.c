@@ -28,7 +28,7 @@ void main(){
 	print(str, len);
 
 	//2. sort
-    for (i=0; i<len; i++){
+    for (i=0; i<len-1; i++){
 		for (j = i+1; j<len; j++) {
 			if (strcmp(str[j], str[i]) < 0) {
 				strcpy(temp,str[i]);
