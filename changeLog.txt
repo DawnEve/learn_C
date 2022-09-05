@@ -24,6 +24,7 @@ v2.3 bag3/ 阅读基础代码: 6个, now 72
 v2.4 bag4/ 阅读基础代码: 8个, now 80; add cpp;
 v2.5 bag4/ 阅读基础代码: 10个, now 90
 v2.6 bag4/ 阅读基础代码: 3个, now 93
+v2.7 bag4/ 阅读基础代码: 3个, now 95
 
 #
 ##->commit

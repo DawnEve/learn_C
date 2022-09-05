@@ -15,13 +15,12 @@ void free(void* p);
 #include <stdio.h>
 #include <malloc.h>
 //#include <stdlib.h> 
-int main()  
-{
+int main() {
 	int i, j, m, n, *p = NULL;
 	
 	//二维动态数组
 	printf("Please enter array size m,n:");
-	scanf("%d,%d", &m, &n); 
+	scanf("%d,%d", &m, &n);
 	p = (int *) calloc(m * n, sizeof (int));    //核心语句
 
 	//p[i*n+j];  //像使用一维数组一样使用
@@ -30,21 +29,18 @@ int main()
 	printf("addr of p: %p, &p: %p,   arr: %p\n", p,&p, arr);
 	
     //输入
-	for (i=0; i<m; i++){
-		for (j=0; j<n; j++)
-		{
-			printf("请输入二维数组元素p[%d][%d] = ", i, j);//像使用二维数组一样使用
-		    scanf("%d", &p[i*n+j]);
+	for (i=0; i<m; i++) {
+		for (j=0; j<n; j++) {
+			printf("Pls input the element p[%d][%d] = ", i, j);//像使用二维数组一样使用
+		    scanf("%d", &p[i*n+j]); // 这明明不像二维数组
 		}
 	}
 
 	//输出
-	for (i=0; i<m; i++)
-	{
+	for (i=0; i<m; i++)	{
 		printf("Row %d\n", i);
-		for (j=0; j<n; j++)
-		{
-			printf("\t%p: p[%d][%d] = %d \n", &p[i*n+j], i, j, p[i*n+j]); //像使用二维数组一样使用
+		for (j=0; j<n; j++)	{
+			printf("\t%p: p[%d][%d] = %d \n", &p[i*n+j], i, j, p[i*n+j]); //// 这明明不像二维数组
 		}
 		printf("\n");
 	}
