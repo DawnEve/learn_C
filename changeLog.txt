@@ -26,6 +26,7 @@ v2.5 bag4/ 阅读基础代码: 10个, now 90
 v2.6 bag4/ 阅读基础代码: 3个, now 93
 v2.7 bag4/ 阅读基础代码: 3个, now 95
 v2.8 bag5/ 阅读基础代码: 6个, now 101
+v2.9 bag5/ 阅读基础代码: 7个, now 108; git ignore .o
 
 #
 ##->commit

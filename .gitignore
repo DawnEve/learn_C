@@ -2,6 +2,7 @@
 # file
 *.exe
 *.out
+*.o
 
 
 # dir
