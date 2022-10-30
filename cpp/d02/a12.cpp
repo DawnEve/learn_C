@@ -6,21 +6,25 @@ void say1(const string &name){
 	//name="Tom1"; //报错
 	cout << "My name1 is " << name << " | addr: " << &name << endl;
 }
+
 //不加&则函数内地址会变
 void say2(const string name){
 	//name="Tom2"; //报错
 	cout << "My name2 is " << name << " | addr: " << &name << endl;
 }
+
 //不加 const 则能修改值
 void say3(string name){
 	name="Tom3";
 	cout << "My name3 is " << name << " | addr: " << &name << endl;
 }
+
 //只加 & 则函数内的修改能反应到原变量上
 void say4(string &name){
 	name="Tom4";
 	cout << "My name4 is " << name << " | addr: " << &name << endl;
 }
+
 int main(){
 	string x="Tom";
 	cout << "addr: " << &x << endl;
