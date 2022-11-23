@@ -36,6 +36,7 @@ v3.5 bag5/ 四皇后问题 暴力穷举法
 v3.6 bag5/ n皇后问题 追溯法; 阅读基础代码: 3个 now 120;
 	add dir: 位操作; add 随机数
 v3.7 day12/b02.c 尝试获取亚时间戳
+v3.8 bag5/ 阅读基础代码: 5个, now 125; day12/ 随机数;
 #
 ##->commit
 ##----------->push to DawnEve master
